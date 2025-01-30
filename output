@@ -1,0 +1,12 @@
+    When I ran the program, it calculated the distance between the two points 
+as 1.73. Then, it used an elapsed time of 5 seconds to calculate velocity, 
+which resulted in 0.35. However, when the program tried to calculate velocity 
+at time = 0 seconds, it ran into an error because time can't be zero in a 
+velocity calculation. The program printed an error message.
+
+    After switching the times, the program still showed the same 1.73 for 
+distance, but an error also occured because it tried to divide by 0 seconds, so 
+it didn’t get to the second calculation. But after handling the error, the next 
+velocity calculation using 5 seconds worked and gave a result of 1.73 again. 
+This proves that the program correctly calculates velocity and can properly 
+handle zero time errors.
